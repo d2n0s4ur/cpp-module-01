@@ -6,12 +6,12 @@
 #    By: jnoh <jnoh@student.42seoul.kr>             +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/12 14:49:08 by jnoh              #+#    #+#              #
-#    Updated: 2023/01/12 14:49:51 by jnoh             ###   ########.fr        #
+#    Updated: 2023/01/12 15:29:45 by jnoh             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC		= 	c++
-CFLAGS	= 	-Wall -Werror -Wextra # -std=c++98
+CPPFLAGS= 	-Wall -Werror -Wextra # -std=c++98
 SRCS	= 	main.cpp Zombie.cpp newZombie.cpp randomChump.cpp
 NAME	=	zombie
 OBJS	=	$(SRCS:.cpp=.o)
