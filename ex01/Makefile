@@ -6,7 +6,7 @@
 #    By: jnoh <jnoh@student.42seoul.kr>             +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/12 14:49:08 by jnoh              #+#    #+#              #
-#    Updated: 2023/01/12 15:30:20 by jnoh             ###   ########.fr        #
+#    Updated: 2023/01/12 15:53:42 by jnoh             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@ NAME	=	zombie
 OBJS	=	$(SRCS:.cpp=.o)
 
 $(NAME) : $(OBJS)
-			$(CC) -o $(NAME) $(CFLAGS) $(OBJS)
+			$(CC) -o $(NAME) $(CPPFLAGS) $(OBJS)
 
 all	: $(NAME)
 
