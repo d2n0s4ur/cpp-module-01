@@ -6,12 +6,12 @@
 #    By: jnoh <jnoh@student.42seoul.kr>             +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/12 14:49:08 by jnoh              #+#    #+#              #
-#    Updated: 2023/01/12 15:29:28 by jnoh             ###   ########.fr        #
+#    Updated: 2023/01/12 15:30:20 by jnoh             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC		= 	c++
-CPPFLAGS= 	-Wall -Werror -Wextra  -std=c++98
+CPPFLAGS= 	-Wall -Werror -Wextra # -std=c++98
 SRCS	= 	main.cpp Zombie.cpp zombieHorde.cpp
 NAME	=	zombie
 OBJS	=	$(SRCS:.cpp=.o)
