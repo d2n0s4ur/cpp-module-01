@@ -6,12 +6,12 @@
 #    By: jnoh <jnoh@student.42seoul.kr>             +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/13 17:35:58 by jnoh              #+#    #+#              #
-#    Updated: 2023/01/14 23:03:09 by jnoh             ###   ########.fr        #
+#    Updated: 2023/01/17 19:16:40 by jnoh             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC		= 	c++
-CPPFLAGS= 	-Wall -Werror -Wextra # -std=c++98
+CPPFLAGS= 	-Wall -Werror -Wextra -std=c++98 -pedantic
 SRCS	= 	main.cpp Harl.cpp
 NAME	=	harl
 OBJS	=	$(SRCS:.cpp=.o)

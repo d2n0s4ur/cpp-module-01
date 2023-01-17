@@ -6,12 +6,12 @@
 #    By: jnoh <jnoh@student.42seoul.kr>             +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/12 17:00:54 by jnoh              #+#    #+#              #
-#    Updated: 2023/01/12 17:31:14 by jnoh             ###   ########.fr        #
+#    Updated: 2023/01/17 19:16:27 by jnoh             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC		= 	c++
-CPPFLAGS= 	-Wall -Werror -Wextra # -std=c++98
+CPPFLAGS= 	-Wall -Werror -Wextra -std=c++98 -pedantic
 SRCS	= 	main.cpp
 NAME	=	replace
 OBJS	=	$(SRCS:.cpp=.o)
